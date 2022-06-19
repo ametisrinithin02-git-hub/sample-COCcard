@@ -1,0 +1,75 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.main_div{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./assets/coc-background.jpg');
+    background-size: 100% 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.level_heading{
+    font-size:1.3rem;
+    color:rgb(238, 168, 37);
+}
+
+.center_div{
+    width:280px;
+    height:auto;
+}
+.heading{
+    padding-top:5px;
+    padding-bottom:10px;
+}
+.img_div{
+    background: linear-gradient(to right,#67624c,#767c6e);
+    height:250px;
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.barberian_img{
+    height:270px;
+    width:420px;
+}
+.about_div{
+    padding:14% 7% 12% 7%;
+    background-color: #fff;
+    text-align: center;
+
+}
+.about_div p{
+    color:#767c6e;
+}
+.lower_div{
+    display:flex;
+    
+    /* align-items: space-between; */
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: space-around;
+    background-color: rgb(245, 164, 14);
+    /* background-color:red; */
+}
+.powers{
+    flex-grow:1;
+    text-align: center;
+    padding:10px;
+    border-right: solid #fff 1px;
+    color:#fff;
+    /* background-color:red; */
+}
+
+.strength{
+    font-size:1.4rem;
+    font-weight:bold;
+}
+.range{
+    border-right:none;
+}
